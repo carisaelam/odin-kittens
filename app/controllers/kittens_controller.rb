@@ -53,7 +53,7 @@ class KittensController < ApplicationController
     @kitten.destroy!
 
     respond_to do |format|
-      format.html { redirect_to kittens_url, notice: "Kitten was successfully destroyed." }
+      format.html { redirect_to kittens_url, notice: "Kitten was destroyed! 🔥🔥🔥🔥" }
       format.json { head :no_content }
     end
   end
